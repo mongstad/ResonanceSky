@@ -1,0 +1,769 @@
+<!--
+
+          Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [2025] [Johnny Mongstad]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ResonanceSky v0.7a — Solar Path • Cone Mosaic (Thousands per Eye)</title>
+<style>
+  :root{color-scheme:dark light}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Inter,Arial;background:#0b0f14;color:#e6edf3;min-height:100dvh;display:grid;grid-template-columns:360px 1fr}
+  aside{background:#0e141b;border-right:1px solid #1b2430;padding:16px;overflow:auto;position:relative;transition:transform .25s ease}
+  main{display:grid;place-items:center;position:relative}
+  h1{font-size:16px;margin:0 0 8px;color:#9dc1ff}
+  fieldset{border:1px solid #1b2430;border-radius:12px;margin:0 0 14px;padding:10px}
+  legend{padding:0 6px;color:#93b4ff}
+  .row{display:flex;align-items:center;gap:8px;margin:6px 0}
+  label{font-size:12px;flex:1;color:#a8b3c7}
+  input[type=range]{flex:2}
+  input[type=number]{width:90px}
+  select{flex:2;background:#111826;color:#e6edf3;border:1px solid #1b2430;border-radius:8px;padding:6px}
+  .val{width:76px;text-align:right;color:#bcd}
+  .btn{appearance:none;border:1px solid #1b2430;background:#111826;color:#e6edf3;padding:8px 10px;border-radius:10px;cursor:pointer}
+  .btn:hover{background:#122033}
+  .muted{color:#7f8ea3;font-size:12px}
+  canvas{width:100%;height:100%;max-height:100dvh;background:#000}
+  .grid{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center}
+  .switch{display:flex;align-items:center;gap:8px}
+  .switch input{transform:scale(1.15)}
+  #collapse{position:absolute;right:-12px;top:10px;z-index:5;background:#111826;border:1px solid #1b2430;border-left:none;border-radius:0 8px 8px 0;padding:6px 8px;cursor:pointer;color:#9dc1ff}
+  body.collapsed aside{transform:translateX(-100%)}
+  body.collapsed{grid-template-columns:0 1fr}
+  #manualControls,#solarControls{margin-top:6px}
+  .dim{opacity:.55}
+</style>
+</head>
+<body>
+  <aside>
+    <button id="collapse" class="btn" title="Collapse/Expand controls">⟨</button>
+    <h1>ResonanceSky v0.7a</h1>
+    <p class="muted">Interference → ocular optics → foveated retina. Real solar path. <b>Cone mosaic (thousands per eye)</b>.</p>
+
+    <fieldset>
+      <legend>Sun mode</legend>
+      <div class="row">
+        <label>Mode</label>
+        <select id="sunMode">
+          <option value="manual">Manual (az/el sliders)</option>
+          <option value="solar" selected>Earth-solar (lat/day/time)</option>
+        </select>
+      </div>
+      <div id="manualControls">
+        <div class="row"><label>Azimuth (°)</label><input id="az" type="range" min="0" max="360" step="1" value="180"><div class="val" id="az_v">180</div></div>
+        <div class="row"><label>Elevation (°)</label><input id="el" type="range" min="0" max="89" step="1" value="45"><div class="val" id="el_v">45</div></div>
+      </div>
+      <div id="solarControls">
+        <div class="row"><label>Latitude (°)</label><input id="lat" type="range" min="-90" max="90" step="1" value="60"><div class="val" id="lat_v">60</div></div>
+        <div class="row"><label>Day of year</label><input id="doy" type="range" min="1" max="365" step="1" value="172"><div class="val" id="doy_v">172</div></div>
+        <div class="row"><label>Start time (h)</label><input id="hour" type="range" min="0" max="24" step="0.25" value="12"><div class="val" id="hour_v">12.00</div></div>
+        <div class="row"><label>Run clock</label><input id="runClock" type="checkbox" checked></div>
+        <div class="row"><label>Time multiplier</label><input id="timeMult" type="range" min="1" max="1000" step="1" value="1"><div class="val" id="timeMult_v">1×</div></div>
+      </div>
+      <div class="muted">Sun disk is physical: diameter ≈ 0.53° (half-angle 0.27°). Spread is fixed in Solar mode.</div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Field</legend>
+      <div class="row"><label>Field model</label>
+        <select id="fieldModel">
+          <option value="plane" selected>Plane waves (M)</option>
+          <option value="gabor">Gabor bundle (K)</option>
+        </select>
+      </div>
+      <div class="row"><label>Modes/Kernels</label><input id="modes" type="range" min="4" max="128" step="1" value="48"><div class="val" id="modes_v">48</div></div>
+      <div class="row"><label>Ambient β</label><input id="ambient" type="range" min="0" max="0.5" step="0.01" value="0.08"><div class="val" id="ambient_v">0.08</div></div>
+      <div class="row"><label>Seed</label><input id="seed" type="number" value="12345" class="val"></div>
+      <div class="row"><label>Dual source</label><input id="dual" type="checkbox"></div>
+      <div class="row"><label>Dual offset (°)</label><input id="offset" type="range" min="5" max="120" step="1" value="42"><div class="val" id="offset_v">42</div></div>
+      <div class="row"><label>Primary weight</label><input id="weight" type="range" min="0.1" max="0.9" step="0.05" value="0.60"><div class="val" id="weight_v">0.60</div></div>
+      <div class="row"><label>Spectrum</label>
+        <select id="spectrum">
+          <option value="uniform" selected>Uniform 380–700</option>
+          <option value="triband">Tri-band (430/540/570)</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Observer / Eye</legend>
+      <div class="row"><label>Stereo</label><input id="twoeyes" type="checkbox" checked></div>
+      <div class="row"><label>Baseline (cm)</label><input id="baseline" type="range" min="0" max="8" step="0.1" value="6.5"><div class="val" id="baseline_v">6.5</div></div>
+      <div class="row"><label>Cones ON</label><input id="conesOn" type="checkbox" checked></div>
+      <div class="row"><label>Pupil (mm)</label><input id="pupil" type="range" min="2" max="7" step="0.1" value="4.0"><div class="val" id="pupil_v">4.0</div></div>
+      <div class="row"><label>Defocus</label><input id="defocus" type="range" min="0" max="1.0" step="0.02" value="0.20"><div class="val" id="defocus_v">0.20</div></div>
+      <div class="row"><label>Chromatic ab. (RB)</label><input id="chromAb" type="range" min="0" max="1.0" step="0.02" value="0.20"><div class="val" id="chromAb_v">0.20</div></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Retina • Foveation</legend>
+      <div class="row"><label>Fovea radius (deg)</label><input id="fovDeg" type="range" min="5" max="25" step="0.5" value="14"><div class="val" id="fovDeg_v">14.0</div></div>
+      <div class="row"><label>Feather (deg)</label><input id="featherDeg" type="range" min="1" max="15" step="0.5" value="6"><div class="val" id="featherDeg_v">6.0</div></div>
+      <div class="row"><label>Internal scale</label><input id="scale" type="range" min="0.6" max="1.0" step="0.02" value="1.0"><div class="val" id="scale_v">1.00</div></div>
+      <div class="row"><label>Temporal blend α</label><input id="ema" type="range" min="0.0" max="0.98" step="0.02" value="0.88"><div class="val" id="ema_v">0.88</div></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Retina • Cone Mosaic</legend>
+      <div class="switch"><input id="mosaicOn" type="checkbox"><label for="mosaicOn"><b>Enable cone mosaic (thousands per eye)</b></label></div>
+      <div class="row"><label>Mosaic resolution</label><input id="mosaicRes" type="range" min="0.10" max="0.50" step="0.02" value="0.25"><div class="val" id="mosaicRes_v">0.25×</div></div>
+      <div class="row"><label>L ratio</label><input id="ratioL" type="range" min="0.00" max="1.00" step="0.01" value="0.64"><div class="val" id="ratioL_v">0.64</div></div>
+      <div class="row"><label>M ratio</label><input id="ratioM" type="range" min="0.00" max="1.00" step="0.01" value="0.32"><div class="val" id="ratioM_v">0.32</div></div>
+      <div class="row"><label>S ratio</label><input id="ratioS" type="range" min="0.00" max="1.00" step="0.01" value="0.04"><div class="val" id="ratioS_v">0.04</div></div>
+      <div class="muted">Tip: Mosaic 0.25 ⇒ ~32k cones/eye. 0.5 ⇒ ~130k/eye.</div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Export</legend>
+      <div class="grid">
+        <button id="exportBtn" class="btn">Export PNG</button>
+        <button id="shuffleBtn" class="btn">Shuffle seed</button>
+      </div>
+      <div class="switch"><input id="timelapseOn" type="checkbox"><label for="timelapseOn">Enable time-lapse</label></div>
+      <div class="row">
+        <label>Interval (s)</label>
+        <input id="tlSlider" type="range" min="5" max="600" step="5" value="60">
+        <input id="tlBox" type="number" min="5" max="600" step="1" value="60">
+      </div>
+    </fieldset>
+
+    <p class="muted" id="status"></p>
+  </aside>
+
+  <main><canvas id="sky" width="1024" height="512"></canvas></main>
+
+<script type="module">
+/* ===== Utils ===== */
+const DEG=Math.PI/180, dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+const clamp=(x,a,b)=>Math.min(b,Math.max(a,x)), lerp=(a,b,t)=>a+(b-a)*t;
+const smoothstep=(a,b,x)=>{const t=clamp((x-a)/(b-a),0,1);return t*t*(3-2*t);}
+function randLcgFactory(seed){let s=(seed>>>0)||1;return()=> (s=(1664525*s+1013904223)>>>0)/4294967296}
+function dirFromAzEl(azDeg,elDeg){const az=azDeg*DEG, el=elDeg*DEG; const ca=Math.cos(az), sa=Math.sin(az), ce=Math.cos(el), se=Math.sin(el); return [ce*sa, se, ce*ca];}
+function rotY(v, deg){ const a=deg*DEG, c=Math.cos(a), s=Math.sin(a); const [x,y,z]=v; return [c*x+s*z, y, -s*x+c*z]; }
+function frameAround(v){ const [vx,vy,vz]=v; const a=Math.abs(vx)>0.1?[0,1,0]:[1,0,0]; let bx=vy*a[2]-vz*a[1], by=vz*a[0]-vx*a[2], bz=vx*a[1]-vy*a[0]; const bl=Math.hypot(bx,by,bz)||1; bx/=bl; by/=bl; bz/=bl; const cx=vy*bz-vz*by, cy=vz*bx-vx*bz, cz=vx*by-vy*bx; return {b:[bx,by,bz], c:[cx,cy,cz]}; }
+function sampleInCone(rng, axis, halfDeg){ const ha=halfDeg*DEG, u=rng(); const cosT=lerp(1,Math.cos(ha),u), sinT=Math.sqrt(1-cosT*cosT); const phi=2*Math.PI*rng(); const {b,c}=frameAround(axis); const [vx,vy,vz]=axis; const cosP=Math.cos(phi), sinP=Math.sin(phi); const dx=vx*cosT + (b[0]*cosP + c[0]*sinP)*sinT; const dy=vy*cosT + (b[1]*cosP + c[1]*sinP)*sinT; const dz=vz*cosT + (b[2]*cosP + c[2]*sinP)*sinT; const L=Math.hypot(dx,dy,dz)||1; return [dx/L,dy/L,dz/L]; }
+
+/* ===== Cones & spectrum ===== */
+function makeConeResponses(){
+  const peaks={S:420,M:534,L:564}, sig={S:60,M:90,L:110};
+  const g=(λ,μ,σ)=>{const t=(λ-μ)/σ;return Math.exp(-0.5*t*t);};
+  return { S:(λ)=>g(λ,peaks.S,sig.S), M:(λ)=>g(λ,peaks.M,sig.M), L:(λ)=>g(λ,peaks.L,sig.L), weights:{L:0.64,M:0.32,S:0.04} };
+}
+function sampleLambda(rng,mode){ if(mode==='triband'){ const centers=[430,540,570]; const c=centers[(rng()*centers.length)|0]; return clamp(c + (rng()*2-1)*20,380,700);} return 380+320*rng(); }
+
+/* ===== Solar position ===== */
+function sunPos(latDeg, doy, hours){
+  const lat=latDeg*DEG; const decl=23.44*DEG * Math.sin(2*Math.PI*(284+doy)/365);
+  const ha=(hours-12)*(15*DEG);
+  const el=Math.asin(Math.sin(lat)*Math.sin(decl)+Math.cos(lat)*Math.cos(decl)*Math.cos(ha));
+  const az=Math.atan2(-Math.sin(ha), Math.cos(lat)*Math.tan(decl)-Math.sin(lat)*Math.cos(ha));
+  return { az:(az*180/Math.PI+360)%360, el:Math.max(0, el*180/Math.PI), dec:decl*180/Math.PI };
+}
+
+/* ===== Field synthesis (no drift) ===== */
+function generateMaps_plane({width,height, sunAz,sunEl, dual,offsetDeg,weight, M, ambient, spectrum, seed, halfAngleDeg}){
+  const rng=randLcgFactory(seed);
+  const Sun=dirFromAzEl(sunAz,sunEl), Sun2=rotY(Sun, offsetDeg);
+  const {S,M:Mc,L}=makeConeResponses();
+  const M1=dual? Math.max(1,Math.round(M*weight)) : M;
+  const M2=dual? Math.max(0,M-M1) : 0;
+  const modes=[];
+  function add(count, axis){
+    for(let i=0;i<count;i++){
+      const dir=sampleInCone(rng, axis, halfAngleDeg);
+      const λ = sampleLambda(rng, spectrum);
+      const k = 2*Math.PI*(550/λ);
+      const φ0 = 2*Math.PI*rng();
+      modes.push({dir,k,φ0,s:S(λ),m:Mc(λ),l:L(λ)});
+    }
+  }
+  add(M1,Sun); if(M2>0) add(M2,Sun2);
+
+  const size=width*height;
+  const Smap=new Float32Array(size), Mmap=new Float32Array(size), Lmap=new Float32Array(size);
+
+  let idx=0;
+  for(let j=0;j<height;j++){
+    const v=(j+0.5)/height, lat=(v-0.5)*Math.PI, cl=Math.cos(lat), sl=Math.sin(lat);
+    for(let i=0;i<width;i++,idx++){
+      const u=(i+0.5)/width, lon=(u-0.5)*2*Math.PI, cn=Math.cos(lon), sn=Math.sin(lon);
+      const n=[cl*sn, sl, cl*cn];
+      let sa=0, ma=0, la=0;
+      for(const md of modes){
+        const ph = md.k*dot(md.dir,n) + md.φ0;
+        const c = Math.cos(ph);
+        sa += md.s*c; ma += md.m*c; la += md.l*c;
+      }
+      sa/=M; ma/=M; la/=M;
+      Smap[idx]=clamp(0.5*(sa+1)+0.5*ambient,0,1);
+      Mmap[idx]=clamp(0.5*(ma+1)+0.5*ambient,0,1);
+      Lmap[idx]=clamp(0.5*(la+1)+0.5*ambient,0,1);
+    }
+  }
+  return {Smap,Mmap,Lmap};
+}
+
+/* ===== Optics & foveation helpers ===== */
+function gaussianKernel1D(sigma){
+  sigma=Math.max(0.0001,sigma);
+  const radius=Math.max(1, Math.ceil(3*sigma));
+  const k=new Float32Array(2*radius+1);
+  const inv2s2=1/(2*sigma*sigma);
+  let sum=0;
+  for(let i=-radius;i<=radius;i++){ const v=Math.exp(-i*i*inv2s2); k[i+radius]=v; sum+=v; }
+  for(let i=0;i<k.length;i++) k[i]/=sum;
+  return {k,radius};
+}
+function blurSeparable(src,w,h,sigma){
+  if(sigma<=0.0001) return src.slice(0);
+  const {k,radius}=gaussianKernel1D(sigma);
+  const tmp=new Float32Array(w*h), out=new Float32Array(w*h);
+  for(let y=0;y<h;y++){
+    const row=y*w;
+    for(let x=0;x<w;x++){
+      let acc=0; for(let t=-radius;t<=radius;t++){ const xx=((x+t)%w+w)%w; acc+=src[row+xx]*k[t+radius]; }
+      tmp[row+x]=acc;
+    }
+  }
+  for(let x=0;x<w;x++){
+    for(let y=0;y<h;y++){
+      let acc=0; for(let t=-radius;t<=radius;t++){ const yy=((y+t)%h+h)%h; acc+=tmp[yy*w+x]*k[t+radius]; }
+      out[y*w+x]=acc;
+    }
+  }
+  return out;
+}
+function downscale2x(src,w,h){
+  const W=w>>1, H=h>>1, out=new Float32Array(W*H);
+  let o=0;
+  for(let y=0;y<H;y++){
+    for(let x=0;x<W;x++){
+      const x2=x*2, y2=y*2, i0=y2*w+x2, i1=i0+1, i2=i0+w, i3=i2+1;
+      out[o++]=0.25*(src[i0]+src[i1]+src[i2]+src[i3]);
+    }
+  }
+  return {out,W,H};
+}
+function sampleBilinear(img,w,h,xf,yf){
+  const x0=Math.floor(xf), y0=Math.floor(yf), tx=xf-x0, ty=yf-y0;
+  const xm=(x)=>((x%w)+w)%w, ym=(y)=>((y%h)+h)%h;
+  const i00=ym(y0)*w + xm(x0), i10=ym(y0)*w + xm(x0+1), i01=ym(y0+1)*w + xm(x0), i11=ym(y0+1)*w + xm(x0+1);
+  const a=img[i00], b=img[i10], c=img[i01], d=img[i11];
+  return lerp(lerp(a,b,tx), lerp(c,d,tx), ty);
+}
+
+/* ===== UI refs ===== */
+const els=id=>document.getElementById(id);
+const sky=els('sky'), statusEl=els('status');
+const elSunMode=els('sunMode'), elAz=els('az'), elEl=els('el');
+const elLat=els('lat'), elDoy=els('doy'), elHour=els('hour'), elRunClock=els('runClock'), elTimeMult=els('timeMult');
+
+const elField=els('fieldModel'), elModes=els('modes'), elAmbient=els('ambient'), elSeed=els('seed');
+const elDual=els('dual'), elOffset=els('offset'), elWeight=els('weight'), elSpectrum=els('spectrum');
+
+const elTwo=els('twoeyes'), elBaseline=els('baseline'), elCones=els('conesOn');
+const elPupil=els('pupil'), elDefocus=els('defocus'), elChromAb=els('chromAb');
+
+const elFov=els('fovDeg'), elFeather=els('featherDeg'), elScale=els('scale'), elEMA=els('ema');
+
+const elMosaicOn=els('mosaicOn'), elMosaicRes=els('mosaicRes');
+const elRatioL=els('ratioL'), elRatioM=els('ratioM'), elRatioS=els('ratioS');
+
+const elTlOn=els('timelapseOn'), elTlSlider=els('tlSlider'), elTlBox=els('tlBox');
+
+const az_v=els('az_v'), el_v=els('el_v'), lat_v=els('lat_v'), doy_v=els('doy_v'), hour_v=els('hour_v');
+const timeMult_v=els('timeMult_v'), modes_v=els('modes_v'), ambient_v=els('ambient_v'), baseline_v=els('baseline_v');
+const pupil_v=els('pupil_v'), defocus_v=els('defocus_v'), chromAb_v=els('chromAb_v'), fovDeg_v=els('fovDeg_v'), featherDeg_v=els('featherDeg_v'), scale_v=els('scale_v'), ema_v=els('ema_v');
+const mosaicRes_v=els('mosaicRes_v'), ratioL_v=els('ratioL_v'), ratioM_v=els('ratioM_v'), ratioS_v=els('ratioS_v');
+
+document.getElementById('collapse').addEventListener('click',()=>{
+  document.body.classList.toggle('collapsed');
+  document.getElementById('collapse').textContent = document.body.classList.contains('collapsed') ? '⟩' : '⟨';
+});
+function refreshGroups(){
+  const manual=document.getElementById('manualControls');
+  const solar=document.getElementById('solarControls');
+  manual.style.opacity = elSunMode.value==='manual'? 1 : 0.6;
+  solar.style.opacity  = elSunMode.value==='solar' ? 1 : 0.6;
+}
+
+/* ===== State ===== */
+let prevRGB=null;
+let simYear=2025, simDay=+elDoy.value, simHour=+elHour.value;
+
+/* ===== Labels & bindings ===== */
+function upd(){ az_v.textContent=(+elAz.value).toFixed(0); el_v.textContent=(+elEl.value).toFixed(0);
+  lat_v.textContent=(+elLat.value).toFixed(0); doy_v.textContent=(+elDoy.value).toFixed(0); hour_v.textContent=(+elHour.value).toFixed(2);
+  timeMult_v.textContent=elTimeMult.value+'×'; modes_v.textContent=elModes.value; ambient_v.textContent=(+elAmbient.value).toFixed(2);
+  baseline_v.textContent=(+elBaseline.value).toFixed(1); pupil_v.textContent=(+elPupil.value).toFixed(1); defocus_v.textContent=(+elDefocus.value).toFixed(2); chromAb_v.textContent=(+elChromAb.value).toFixed(2);
+  fovDeg_v.textContent=(+elFov.value).toFixed(1); featherDeg_v.textContent=(+elFeather.value).toFixed(1); scale_v.textContent=(+elScale.value).toFixed(2); ema_v.textContent=(+elEMA.value).toFixed(2);
+  mosaicRes_v.textContent=(+elMosaicRes.value).toFixed(2)+'×'; ratioL_v.textContent=(+elRatioL.value).toFixed(2); ratioM_v.textContent=(+elRatioM.value).toFixed(2); ratioS_v.textContent=(+elRatioS.value).toFixed(2);
+  refreshGroups();
+}
+[elSunMode, elAz, elEl, elLat, elDoy, elHour, elRunClock, elTimeMult, elField, elModes, elAmbient, elSeed,
+ elDual, elOffset, elWeight, elSpectrum, elTwo, elBaseline, elCones, elPupil, elDefocus, elChromAb,
+ elFov, elFeather, elScale, elEMA, elMosaicOn, elMosaicRes, elRatioL, elRatioM, elRatioS,
+ elTlOn, elTlSlider, elTlBox].forEach(e=>{ e.addEventListener('input', upd); e.addEventListener('change', upd); });
+
+elTlSlider.addEventListener('input',()=>{ elTlBox.value=elTlSlider.value; });
+elTlBox.addEventListener('input',()=>{ elTlSlider.value=elTlBox.value; });
+
+/* ===== Build cone mosaic masks ===== */
+function buildMosaicMasks(Wm,Hm,seed,ratioL,ratioM,ratioS){
+  const rng=randLcgFactory(seed);
+  const total = ratioL+ratioM+ratioS || 1;
+  ratioL/=total; ratioM/=total; ratioS/=total;
+  const ML=new Uint8Array(Wm*Hm), MM=new Uint8Array(Wm*Hm), MS=new Uint8Array(Wm*Hm);
+  for(let i=0;i<Wm*Hm;i++){
+    const r=rng();
+    if(r<ratioL){ ML[i]=1; }
+    else if(r<ratioL+ratioM){ MM[i]=1; }
+    else { MS[i]=1; }
+  }
+  return {ML,MM,MS};
+}
+
+/* ===== Main render ===== */
+function render(){
+  upd();
+  const p={
+    sunMode: elSunMode.value, az:+elAz.value, el:+elEl.value,
+    lat:+elLat.value, doy:simDay, hour:simHour,
+    fieldModel: elField.value, modes:+elModes.value, ambient:+elAmbient.value, seed:(+elSeed.value)||12345,
+    dual: elDual.checked, offset:+elOffset.value, weight:+elWeight.value, spectrum:elSpectrum.value,
+    twoeyes: elTwo.checked, baseline_cm:+elBaseline.value, conesOn:elCones.checked,
+    pupil_mm:+elPupil.value, defocus:+elDefocus.value, chromAb:+elChromAb.value,
+    fovDeg:+elFov.value, featherDeg:+elFeather.value, scale:+elScale.value, ema:+elEMA.value,
+    mosaicOn: elMosaicOn.checked, mosaicRes:+elMosaicRes.value, rL:+elRatioL.value, rM:+elRatioM.value, rS:+elRatioS.value
+  };
+
+  const W=Math.floor(1024*p.scale), H=Math.floor(512*p.scale); sky.width=W; sky.height=H;
+
+  // Solar:
+  let sunAz=p.az, sunEl=p.el, sunDec=0;
+  if(p.sunMode==='solar'){ const sp=sunPos(p.lat,p.doy,p.hour); sunAz=sp.az; sunEl=sp.el; sunDec=sp.dec; elAz.value=sunAz; elEl.value=sunEl; }
+
+  const halfAngleDeg=0.27; // physical Sun half-diameter
+
+  // Field maps (S,M,L)
+  const base = generateMaps_plane({width:W,height:H,sunAz,sunEl,dual:p.dual,offsetDeg:p.offset,weight:p.weight,M:p.modes,ambient:p.ambient,spectrum:p.spectrum,seed:p.seed,halfAngleDeg});
+  let {Smap,Mmap,Lmap}=base;
+
+  // Optics blur per channel
+  const c1=0.0025, c2=2.0, sigBase=(lam)=> c1*(lam/p.pupil_mm)+c2*p.defocus*0.2;
+  const S_blur=blurSeparable(Smap,W,H,sigBase(440)*0.6);
+  const M_blur=blurSeparable(Mmap,W,H,sigBase(540)*0.6);
+  const L_blur=blurSeparable(Lmap,W,H,sigBase(570)*0.6);
+
+  // Downscale for periphery
+  const dS=downscale2x(S_blur,W,H), dM=downscale2x(M_blur,W,H), dL=downscale2x(L_blur,W,H);
+
+  // Stereo parallax & chromatic shift
+  const du = (p.twoeyes? 0.05*(p.baseline_cm/6.5) : 0)*DEG/(2*Math.PI);
+  const duPix = du*W, chrom=p.chromAb*0.6, cx=W*0.5, cy=H*0.5;
+  const weights=makeConeResponses().weights;
+
+  // === Compose high-res RGB ===
+  const HR_R=new Float32Array(W*H), HR_G=new Float32Array(W*H), HR_B=new Float32Array(W*H);
+
+  if(!p.mosaicOn){
+    for(let y=0;y<H;y++){
+      for(let x=0;x<W;x++){
+        const xL = p.twoeyes? x - duPix : x, xR = p.twoeyes? x + duPix : x;
+        const dx=x-cx, dy=y-cy, rlen=Math.hypot(dx,dy)||1, ux=dx/rlen, uy=dy/rlen;
+        const cr=chrom*rlen*0.002, cb=-chrom*rlen*0.002;
+
+        const SL = sampleBilinear(S_blur,W,H, xL + cb*ux, y + cb*uy);
+        const SR = sampleBilinear(S_blur,W,H, xR + cb*ux, y + cb*uy);
+        const MLs= sampleBilinear(M_blur,W,H, xL, y);
+        const MRm= sampleBilinear(M_blur,W,H, xR, y);
+        const LLs= sampleBilinear(L_blur,W,H, xL + cr*ux, y + cr*uy);
+        const LRm= sampleBilinear(L_blur,W,H, xR + cr*ux, y + cr*uy);
+
+        let r,g,b;
+        if(p.conesOn){
+          const RL=weights.L*LLs, GL=weights.M*MLs, BL=weights.S*SL;
+          const RR=weights.L*LRm, GR=weights.M*MRm, BR=weights.S*SR;
+          r=0.5*(RL+RR); g=0.5*(GL+GR); b=0.5*(BL+BR);
+        }else{
+          r=0.5*(LRm+LLs); g=0.5*(MRm+MLs); b=0.5*(SR+SL);
+        }
+        const i=y*W+x; HR_R[i]=r; HR_G[i]=g; HR_B[i]=b;
+      }
+    }
+  } else {
+    // Cone Mosaic path
+    const Wm=Math.max(8, Math.floor(W*p.mosaicRes)), Hm=Math.max(4, Math.floor(H*p.mosaicRes));
+    const mosL = buildMosaicMasks(Wm,Hm,(p.seed^0xA53), p.rL,p.rM,p.rS);
+    const mosR = buildMosaicMasks(Wm,Hm,(p.seed^0xC37), p.rL,p.rM,p.rS);
+
+    const ML_R=new Float32Array(Wm*Hm), ML_G=new Float32Array(Wm*Hm), ML_B=new Float32Array(Wm*Hm);
+    const MR_R=new Float32Array(Wm*Hm), MR_G=new Float32Array(Wm*Hm), MR_B=new Float32Array(Wm*Hm);
+
+    for(let y=0;y<Hm;y++){
+      for(let x=0;x<Wm;x++){
+        const xf = (x+0.5)*(W/Wm), yf=(y+0.5)*(H/Hm);
+        const dx=xf-cx, dy=yf-cy, rlen=Math.hypot(dx,dy)||1, ux=dx/rlen, uy=dy/rlen;
+        const cr=chrom*rlen*0.002, cb=-chrom*rlen*0.002;
+
+        const xL = p.twoeyes? xf - duPix : xf;
+        const SL = sampleBilinear(S_blur,W,H, xL + cb*ux, yf + cb*uy);
+        const MLs= sampleBilinear(M_blur,W,H, xL, yf);
+        const LLs= sampleBilinear(L_blur,W,H, xL + cr*ux, yf + cr*uy);
+
+        const xR = p.twoeyes? xf + duPix : xf;
+        const SR = sampleBilinear(S_blur,W,H, xR + cb*ux, yf + cb*uy);
+        const MRm= sampleBilinear(M_blur,W,H, xR, yf);
+        const LRm= sampleBilinear(L_blur,W,H, xR + cr*ux, yf + cr*uy);
+
+        const i=y*Wm+x;
+        ML_R[i] = mosL.ML[i] ? (p.conesOn? weights.L*LLs : LLs) : 0;
+        ML_G[i] = mosL.MM[i] ? (p.conesOn? weights.M*MLs : MLs) : 0;
+        ML_B[i] = mosL.MS[i] ? (p.conesOn? weights.S*SL  : SL ) : 0;
+
+        MR_R[i] = mosR.ML[i] ? (p.conesOn? weights.L*LRm : LRm) : 0;
+        MR_G[i] = mosR.MM[i] ? (p.conesOn? weights.M*MRm : MRm) : 0;
+        MR_B[i] = mosR.MS[i] ? (p.conesOn? weights.S*SR  : SR ) : 0;
+      }
+    }
+
+    // Blur mosaics slightly and upsample
+    function blurSmall(src,w,h){ return blurSeparable(src,w,h,1.0); }
+    const Lb_R=blurSmall(ML_R,Wm,Hm), Lb_G=blurSmall(ML_G,Wm,Hm), Lb_B=blurSmall(ML_B,Wm,Hm);
+    const Rb_R=blurSmall(MR_R,Wm,Hm), Rb_G=blurSmall(MR_G,Wm,Hm), Rb_B=blurSmall(MR_B,Wm,Hm);
+
+    for(let y=0;y<H;y++){
+      for(let x=0;x<W;x++){
+        const xf=x*(Wm/W), yf=y*(Hm/H);
+        const rL = sampleBilinear(Lb_R,Wm,Hm, xf, yf), gL = sampleBilinear(Lb_G,Wm,Hm, xf, yf), bL = sampleBilinear(Lb_B,Wm,Hm, xf, yf);
+        const rR = sampleBilinear(Rb_R,Wm,Hm, xf, yf), gR = sampleBilinear(Rb_G,Wm,Hm, xf, yf), bR = sampleBilinear(Rb_B,Wm,Hm, xf, yf);
+        const i=y*W+x;
+        HR_R[i]=0.5*(rL+rR); HR_G[i]=0.5*(gL+gR); HR_B[i]=0.5*(bL+bR);
+      }
+    }
+  }
+
+  // Periphery blend (low-res maps)
+  const W2=dS.W, H2=dS.H, DOFgain=1.0+2.5*p.defocus;
+  const S_lr = blurSeparable(dS.out,W2,H2, (p.mosaicOn? 1.5:1.0)* (c1*(440/p.pupil_mm)+2.0*p.defocus*0.2)*DOFgain);
+  const M_lr = blurSeparable(dM.out,W2,H2, (p.mosaicOn? 1.5:1.0)* (c1*(540/p.pupil_mm)+2.0*p.defocus*0.2)*DOFgain);
+  const L_lr = blurSeparable(dL.out,W2,H2, (p.mosaicOn? 1.5:1.0)* (c1*(570/p.pupil_mm)+2.0*p.defocus*0.2)*DOFgain);
+
+  const LR_R=new Float32Array(W2*H2), LR_G=new Float32Array(W2*H2), LR_B=new Float32Array(W2*H2);
+  const weights2=weights;
+  for(let i=0;i<W2*H2;i++){
+    if(p.conesOn){ LR_R[i]=weights2.L*L_lr[i]; LR_G[i]=weights2.M*M_lr[i]; LR_B[i]=weights2.S*S_lr[i]; }
+    else { LR_R[i]=L_lr[i]; LR_G[i]=M_lr[i]; LR_B[i]=S_lr[i]; }
+  }
+
+  // Compose final image with foveated blend + EMA + gamma
+  const ctx=sky.getContext('2d');
+  const img=ctx.createImageData(W,H); const out=img.data;
+  const pxPerDeg=H/180, r0=p.fovDeg*pxPerDeg, r1=(p.fovDeg+p.featherDeg)*pxPerDeg;
+  if(!prevRGB || prevRGB.length!==W*H*3) prevRGB=new Float32Array(W*H*3);
+  const cx2=W*0.5, cy2=H*0.5, exposure=lerp(0.85,1.25,(p.pupil_mm-2)/(7-2));
+
+  for(let y=0;y<H;y++){
+    for(let x=0;x<W;x++){
+      const i=y*W+x, dx=x-cx2, dy=y-cy2, r=Math.hypot(dx,dy), w=smoothstep(r0,r1,r);
+      const xf=x*0.5, yf=y*0.5;
+      const rLR=sampleBilinear(LR_R,W2,H2,xf,yf), gLR=sampleBilinear(LR_G,W2,H2,xf,yf), bLR=sampleBilinear(LR_B,W2,H2,xf,yf);
+
+      let rC=lerp(HR_R[i],rLR,w)*exposure, gC=lerp(HR_G[i],gLR,w)*exposure, bC=lerp(HR_B[i],bLR,w)*exposure;
+
+      const pi=i*3, rP=prevRGB[pi], gP=prevRGB[pi+1], bP=prevRGB[pi+2];
+      rC=lerp(rC,rP,p.ema); gC=lerp(gC,gP,p.ema); bC=lerp(bC,bP,p.ema);
+      prevRGB[pi]=rC; prevRGB[pi+1]=gC; prevRGB[pi+2]=bC;
+
+      const gamma=2.2, to8=(x)=> clamp((Math.pow(clamp(x,0,1),1/gamma)*255)|0,0,255);
+      const pxi=i*4; out[pxi]=to8(rC); out[pxi+1]=to8(gC); out[pxi+2]=to8(bC); out[pxi+3]=255;
+    }
+  }
+  ctx.putImageData(img,0,0);
+
+  // Status line
+  const nowH = (p.sunMode==='solar') ? p.hour : +elHour.value;
+  const hh = String(nowH|0).padStart(2,'0');
+  const mm = String(((nowH%1)*60)|0).padStart(2,'0');
+  const dateStr = `${simYear}-${String(p.doy).padStart(3,'0')} ${hh}:${mm}:00 UTC`;
+  const flags=[
+    `${W}×${H}`,
+    `modes=${p.modes}`,
+    p.dual?`dual@${p.offset}° w=${(+p.weight).toFixed(2)}`:'single',
+    p.spectrum,
+    p.twoeyes?'stereo':'mono',
+    `pupil=${p.pupil_mm.toFixed(1)}mm`,
+    `fovea=${p.fovDeg}°`,
+    `EMA=${p.ema.toFixed(2)}`,
+    p.mosaicOn?`mosaic ${p.mosaicRes.toFixed(2)}×`:'no-mosaic'
+  ].join(' • ');
+  if(p.sunMode==='solar'){
+    statusEl.textContent = `${flags} • lat=${p.lat}° • day=${p.doy} • ${dateStr} • Sun az=${sunAz.toFixed(1)}° el=${sunEl.toFixed(1)}° • time×${(+elTimeMult.value)}`;
+  }else{
+    statusEl.textContent = `${flags} • Manual Sun az=${sunAz.toFixed(1)}° el=${sunEl.toFixed(1)}°`;
+  }
+}
+
+/* Export & shuffle */
+document.getElementById('exportBtn').addEventListener('click', ()=>{
+  const a=document.createElement('a');
+  a.download = `ResonanceSky_v0.7a_${Date.now()}.png`;
+  a.href = sky.toDataURL('image/png'); a.click();
+});
+document.getElementById('shuffleBtn').addEventListener('click', ()=>{ document.getElementById('seed').value = (Math.random()*1e9|0); });
+
+/* Timelapse */
+let lastExportT=0;
+function maybeTimelapseExport(){
+  const on = document.getElementById('timelapseOn').checked;
+  if(!on) return;
+  const now=performance.now()/1000;
+  const interval=+document.getElementById('tlBox').value;
+  if(now-lastExportT>=interval){
+    const a=document.createElement('a');
+    const hh = String(simHour|0).padStart(2,'0');
+    const mm = String(((simHour%1)*60)|0).padStart(2,'0');
+    a.download=`Sky_${simYear}-DOY${String(simDay).padStart(3,'0')}_${hh}-${mm}-00.png`;
+    a.href=sky.toDataURL('image/png'); a.click();
+    lastExportT=now;
+  }
+}
+
+/* Animation loop: pure solar motion */
+let lastRAF=0;
+function tick(ts){
+  if(document.getElementById('sunMode').value==='solar' && document.getElementById('runClock').checked){
+    if(!lastRAF) lastRAF=ts;
+    const dt=(ts-lastRAF)/1000; lastRAF=ts;
+    const mult=+document.getElementById('timeMult').value;
+    simHour += (dt/3600)*mult;
+    if(simHour>=24){ simHour-=24; simDay++; if(simDay>365){simDay=1; simYear++;} }
+  }else{
+    lastRAF=ts;
+    simDay = +document.getElementById('doy').value;
+    simHour = +document.getElementById('hour').value;
+  }
+  render();
+  maybeTimelapseExport();
+  requestAnimationFrame(tick);
+}
+
+/* Init */
+function init(){
+  // sync slider/box linkage
+  document.getElementById('tlSlider').addEventListener('input',()=>{ document.getElementById('tlBox').value=document.getElementById('tlSlider').value; });
+  document.getElementById('tlBox').addEventListener('input',()=>{ document.getElementById('tlSlider').value=document.getElementById('tlBox').value; });
+  upd();
+  render();
+  requestAnimationFrame(tick);
+}
+init();
+</script>
+</body>
+</html>
