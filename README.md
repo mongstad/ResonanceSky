@@ -42,7 +42,7 @@ The purpose is to explore how harmonics, perception, and optics could combine to
 ## 🚀 How to Run
 
 ### Option 1 — Local Browser
-1. Download **`ResonanceSky v0.7a.html`**
+1. Download **`ResonanceSky.html`**
 2. Double-click or open in any modern browser (Chrome, Edge, Firefox).
 3. Use the left control panel to adjust simulation parameters.
 
@@ -51,7 +51,7 @@ The purpose is to explore how harmonics, perception, and optics could combine to
 # Run a local server (Python example)
 python -m http.server 8080
 ```
-Then open [http://localhost:8080/ResonanceSky%20v0.7a.html](http://localhost:8080/ResonanceSky%20v0.7a.html)
+Then open [http://localhost:8080/ResonanceSky.html](http://localhost:8080/ResonanceSky.html)
 
 ---
 
@@ -67,7 +67,7 @@ Then open [http://localhost:8080/ResonanceSky%20v0.7a.html](http://localhost:808
 
 ## 📂 File Info
 
-- File: `ResonanceSky v0.7a.html`
+- File: `ResonanceSky.html`
 - No dependencies — runs entirely in-browser.
 - Licensed under **Apache-2.0** (see header).
 
