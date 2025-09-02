@@ -79,6 +79,12 @@ Then open [http://localhost:8080/ResonanceSky%20v0.7a.html](http://localhost:808
 - It does not use real astrophysical catalogs — skies are synthetic.
 - Designed for conceptual exploration
 
+## Safety Notice
+
+⚠️ **Visual Patterns Disclaimer**  
+This simulation generates dynamic interference patterns.  
+While safe under normal use, some individuals may experience mild visual discomfort if viewed for extended periods.  
+It is recommended to take breaks and avoid prolonged continuous viewing.
 
 # ResonanceSky Simulation
 
