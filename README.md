@@ -79,6 +79,7 @@ Then open [http://localhost:8080/ResonanceSky%20v0.7a.html](http://localhost:808
 - It does not use real astrophysical catalogs — skies are synthetic.
 - Designed for conceptual exploration
 
+
 # ResonanceSky Simulation
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
