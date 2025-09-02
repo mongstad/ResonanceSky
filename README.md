@@ -5,6 +5,9 @@ It models the **Sun’s real solar path**, layered interference patterns, and an
 
 The purpose is to explore how harmonics, perception, and optics could combine to generate a sky-like view, blending physics with visual neuroscience.
 
+⚠️ Note: This simulation generates dynamic interference patterns. While not harmful under normal use, some users may experience visual discomfort if viewing for extended periods.
+
+
 ---
 
 ## ✨ Features
@@ -75,4 +78,12 @@ Then open [http://localhost:8080/ResonanceSky%20v0.7a.html](http://localhost:808
 - This simulation is **exploratory** and **illustrative**. It demonstrates how resonance-based interference fields could map into visual perception models.
 - It does not use real astrophysical catalogs — skies are synthetic.
 - Designed for conceptual exploration
+
+# ResonanceSky Simulation
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Safety](https://img.shields.io/badge/Safety-Visual%20Notice-yellow)](#safety-notice)
+
+An interactive simulation exploring interference patterns and resonance
+phenomena, creating sky-like visual effects.
 
