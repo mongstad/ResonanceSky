@@ -56,7 +56,7 @@
 <body>
   <aside>
     <button id="collapse" class="btn" title="Collapse/Expand controls">⟨</button>
-    <h1>ResonanceSky v0.7a</h1>
+    <h1>ResonanceSky</h1>
     <p class="muted">Interference → ocular optics → foveated retina. Real solar path. <b>Cone mosaic (thousands per eye)</b>.</p>
 
     <fieldset>
@@ -526,7 +526,7 @@ function render(){
 /* Export & shuffle */
 document.getElementById('exportBtn').addEventListener('click', ()=>{
   const a=document.createElement('a');
-  a.download = `ResonanceSky_v0.7a_${Date.now()}.png`;
+  a.download = `ResonanceSky_${Date.now()}.png`;
   a.href = sky.toDataURL('image/png'); a.click();
 });
 document.getElementById('shuffleBtn').addEventListener('click', ()=>{ document.getElementById('seed').value = (Math.random()*1e9|0); });
